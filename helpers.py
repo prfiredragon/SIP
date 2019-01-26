@@ -534,7 +534,7 @@ def station_names():
             return json.load(snf)
     except IOError:
 #        stations = [u"S01", u"S02", u"S03", u"S04", u"S05", u"S06", u"S07", u"S08"]
-        stations = [u"PUMP", u"Lights", u"Fan", u"S04", u"S05", u"S06", u"S07", u"S08"]
+        stations = [u"Pump", u"Lights", u"Fan", u"S04", u"S05", u"S06", u"S07", u"S08"]
         jsave(stations, 'snames')
         return stations
 
